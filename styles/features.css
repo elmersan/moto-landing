@@ -1,0 +1,42 @@
+.container.features-container {
+  color: var(--white);
+  flex-direction: column;
+}
+
+.features-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex: 1;
+}
+
+.features-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.features-cards .card {
+  width: 33rem;
+  border: 0.2rem solid var(--primary);
+  padding: 2rem;
+}
+
+.features-cards .card h6 {
+  font: var(--headline5);
+  color: var(--primary);
+}
+
+.btn {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .features-cards {
+    gap: 3rem;
+  }
+}

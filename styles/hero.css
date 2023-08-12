@@ -1,0 +1,27 @@
+
+.hero-img {
+  flex: 1;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero-description {
+  flex: 1;
+  /* background-color: var(--black);*/
+  color: var(--white); 
+  padding-block: 2rem;
+  align-self: center;
+  height: 100%;
+}
+
+.hero-description p {
+  margin-block: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+  }
+}
